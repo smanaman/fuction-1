@@ -1,13 +1,12 @@
 #include<stdio.h>
 
 void hello(){
-
-
-for(int x=1; x<=5;x++){
-
-    printf("%d\n",x);
+int a,sum=1;
+for(a=1 ;a<=5 ; a++){
+  printf("%d\n",a);
+ sum *=a;
 }
- 
+  printf("sum of all number:=%d\n",sum);
 }
 int main(){
 
