@@ -4,10 +4,10 @@ void hello(){
 int first_number=0;
 int second_number=1;
 int next;
-int n;
 
 
-for(int x=1; x<=10;x++){
+printf("%d\n%d\n",first_number,second_number);
+for(int x=1; x<10;x++){
 next=first_number+second_number;
 first_number=second_number;
 second_number=next;
